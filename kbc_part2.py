@@ -10,6 +10,7 @@ options_list = [
 answer_list = [1,4,1]  
 index = 0
 ans_index1 = 0
+life_line = 5050
 while index<len(question_list):
     print  question_list[index]
     j = 0
@@ -19,7 +20,8 @@ while index<len(question_list):
     user_input = int(raw_input("enter your answre"))
     if user_input == answer_list[ans_index1]:
         print "VERRY GOOD YOU ARE RIGHT:).......","\n"
-   
+    elif user_input == life_line:
+   	print "you take user input"
     else:
         print "SO BAD YOU ARE RONG:(....."
         print "\n"
