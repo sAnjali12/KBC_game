@@ -21,7 +21,27 @@ while index<len(question_list):
     if user_input == answer_list[ans_index1]:
         print "VERRY GOOD YOU ARE RIGHT:).......","\n"
     elif user_input == life_line:
-   	print "you take user input"
+   	again_options_list = [["1. four","2. seven"],["1. bhopal","2.delhi"],["1. tourism","2. software Engineerinng"]]
+	again_option_answer_list = [1,2,2]
+        again_ans_index = 0 
+        again_index = 0
+	while again_index<len(question_list):
+		print question_list[index]
+		again_index = index
+		again_ans_index = ans_index1
+		j2 = 0
+		while j2<len(again_options_list)-1:	
+			print again_options_list[again_index][j2]
+			j2  = j2+1
+		again_user_input = int(raw_input("enter your answer"))
+		if again_user_input == again_option_answer_list[again_ans_index]:
+			print "IT IS RIGHT BUT YOU USE LIFE LINE IT'S NOT GOOD.........","\n"
+			break
+		else:
+			print "YOU ARE RONG"
+			break    		
+		again_ans_index = again_ans_index+1
+		again_index = again_index+1
     else:
         print "SO BAD YOU ARE RONG:(....."
         print "\n"
