@@ -17,6 +17,13 @@ while index<len(question_list):
         print options_list[index][j]
         j =j+1
     user_input = int(raw_input("enter your answre"))
+    if user_input == answer_list[ans_index1]:
+        print "VERRY GOOD YOU ARE RIGHT:).......","\n"
+   
+    else:
+        print "SO BAD YOU ARE RONG:(....."
+        print "\n"
+	break
     index = index+1
     ans_index1 = ans_index1+1
     
