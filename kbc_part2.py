@@ -16,5 +16,7 @@ while index<len(question_list):
     while j<=len(options_list):
         print options_list[index][j]
         j =j+1
+    user_input = int(raw_input("enter your answre"))
     index = index+1
+    ans_index1 = ans_index1+1
     
