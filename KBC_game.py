@@ -1,11 +1,11 @@
 question_list = [
     "1.How many continents are there?",
-    "2.What is the capital of India?",
+    "2.What is the capital of madhya pradesh?",
     "3.NG mei kaun se course padhaya jaata hai?"]
 options_list = [
     
     ["1. Four", "2. Nine", "3. Seven", "4. Eight"],
-    ["1. Chandigarh", "2. Bhopal", "3. Chennai", "4. Delhi"],
+    ["1. Chandigarh", "2. delhi", "3. Chennai", "4. Bhopal"],
     ["1. Software Engineering", "2. Counseling", "3. Tourism", "4. Agriculture"]]
 answer_list = [1,4,1]  
 index = 0
